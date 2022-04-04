@@ -18,7 +18,7 @@ Oi, pessoal! Aqui quem fala é o Bruno, segue o tutorial para instalar e configu
 <img src="./img-tutorial/pasta.png">
 
 ## Entre na pasta com o comando cd:<br>
-<img src="./img-tutorial/entrar na pasta.png">
+<img src="./img-tutorial/entrar na cd_pasta.png">
 
 ## Instale o Laravel com o seguinte comando:<br>
 `composer create-project laravel/laravel tech-share`
