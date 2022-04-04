@@ -7,13 +7,32 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Sobre o Technical Share
+# Como instalar e configurar o Laravel 
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cupiditate, sit repellat sed modi quia commodi! Aut nisi id architecto ipsam impedit, dolores voluptates sunt corporis magnam beatae numquam expedita.
+Oi, pessoal! Aqui quem fala é o Bruno, segue o tutorial para instalar e configurar um ambiente de desenvolvimento do Laravel.
 
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+## O que você irá precisar:
+- <a href="https://www.apachefriends.org/pt_br/index.html">XAMPP</a>
+- <a href="https://getcomposer.org/download/">Composer</a>
+## Dentro do seu CMD entre em C:\xampp\htdocs crie uma pasta com o comando mkdir: <br>
+<img src="./img-tutorial/pasta.png">
+
+## Entre na pasta com o comando cd:<br>
+<img src="./img-tutorial/entrar na pasta.png">
+
+## Instale o Laravel com o seguinte comando:<br>
+`composer create-project laravel/laravel tech-share`
+
+## Mude para o diretório do projeto criado:
+`cd tech-share`
+
+## Inicie o o servidor local de desenvolvimento do Laravel:
+`php artisan serve`
+
+## Copie e cole no seu navegador:
+`http://127.0.0.1:8000`
+
+
 
 
 ## License
