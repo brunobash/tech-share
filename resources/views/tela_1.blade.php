@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Hello, Technical Share!</h1>
-
-<ul>
-    <li><a href="/tela_1">Tela 1</li>
-    <li><a href="#">Tela 2</li>
-    <li><a href="#">Tela 3</li>
-</ul>
+    <h1>tela 1</h1>
+    <a href="/">voltar</a>
 </body>
 </html>
