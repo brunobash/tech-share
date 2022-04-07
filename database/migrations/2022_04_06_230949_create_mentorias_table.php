@@ -13,10 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('trilha', function (Blueprint $table) {
+        Schema::create('mentorias', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('nome_trilha');
+            $table->string('mentor');
+            $table->string('titulo');
+            $table->text('habilidades');
+            $table->date('dd, mm, YY');
         });
     }
 
@@ -27,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('trilha');
+        Schema::dropIfExists('mentorias');
     }
 };
