@@ -1,0 +1,164 @@
+#page-landing {
+  background-color: var(--color-primary);
+}
+
+#page-landing #container {
+  color: var(--color-text-in-primary);
+}
+
+.logo-container{
+  text-align: center;
+  margin-top: -15rem;
+  margin-bottom: 3.2rem;
+}
+
+.logo-container img {
+  height: 45rem;
+}
+
+.logo-container h1{
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 4.6rem;
+  margin-top: -15rem;
+}
+
+.logo-container p{
+  margin-left: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-image {
+  width: 70%;
+  margin-left: 10rem;
+}
+
+.buttons-container{
+  display: flex;
+  justify-content: center;
+  margin: 3.2rem 0;
+}
+
+.buttons-container a img{
+  width: 6rem;
+  margin-right: 2.5rem;
+}
+
+.buttons-container a{
+  width: 30rem;
+  height: 10.4rem;
+  border-radius: 0.8rem;
+  margin-right: 1.6rem;
+  font: 700 2.4rem Archivo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background 0.4s;
+  color: var(--color-button-text);
+}
+
+.buttons-container a.study{
+  background: var(--color-primary-button);
+}
+
+.buttons-container a.study:hover{
+  background: var(--color-primary-button-hover);
+}
+
+.buttons-container a.give-classes{
+  background: var(--color-secondary-button);
+  margin-right: 0;
+}
+
+.buttons-container a.give-classes:hover{
+  background: var(--color-secondary-button-hover);
+}
+
+.connections{
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.connections img{
+  margin-left: 0.8rem;
+  width: 4%;
+}
+
+@media (max-width: 699px){
+  :root{
+    font-size: 40%;
+  }
+
+  .hero-image{
+    width: 50%;
+    margin-left: 20rem;
+  }
+
+}
+
+@media(min-width: 1100px){
+  #page-landing #container{
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 350px 1fr;
+    grid-template-areas: 
+    "technical image image"
+    "button button connection";
+    gap: 60px;
+  }
+
+  .logo-container{
+    grid-area: technical;
+    text-align: initial;
+  }
+
+  .logo-container img{
+    height: 100%;
+    margin-left: -5rem;
+  }
+
+  .logo-container h1{
+    font-size: 4rem;
+    line-height: 3rem;
+    margin-top: -22rem;
+    margin-left: -1rem;
+  }
+  
+  .logo-container p{
+    margin-left: -1rem;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .hero-image{
+    grid-area: image;
+    margin-top: 3.5rem;
+    width: 80%;
+  }
+
+  .buttons-container{
+    grid-area: button;
+    justify-content: flex-start;
+    margin: 0;
+  }
+
+  .buttons-container a{
+    padding: 10rem 20rem;
+  }
+
+  .connections{
+    grid-area: connection;
+    justify-content: end;
+    margin-right: 4rem;
+    font-size: 2.5rem;
+  }
+
+  .connections img{
+    width: 3.8rem;
+    margin-right: 12rem;
+  }
+}
