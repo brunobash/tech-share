@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/tela_1', function(){
+    return view('tela_1');
+});
+
+Route::get('/tela_2', function(){
+    return view('tela_2');
+});
+
+Route::get('/tela_3', function(){
+    return view('tela_3');
+});
