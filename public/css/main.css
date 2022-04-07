@@ -1,0 +1,54 @@
+:root {
+      --color-background: #F0F0F7;
+      --color-primary: #FF4500;
+      --color-primary-button: #FF8C00;
+      --color-primary-button-hover: #FFA500;
+      --color-secondary-button: #4B4FA1;
+      --color-secondary-button-hover: #4169E1;
+      --color-text-in-primary: #D4C2FF;
+      --color-text-base: #6A6180;
+      --color-button-text: #FFFFFF;
+
+      font-size: 60%;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100vh;
+    }
+
+    body {
+      background-color: var(--color-background);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    body,
+    input,
+    button,
+    textarea {
+      font: 500 1.6rem Poppins;
+      color: var(--color-text-base);
+    }
+
+    #container {
+      width: 90vw;
+      max-width: 700px;
+    }
+
+    @media (min-width: 700px){
+      :root{
+        font-size: 35%;
+      }
+
+      .logo-container{
+        margin-top: 50rem;
+      }
+    }
