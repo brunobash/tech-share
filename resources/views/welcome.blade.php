@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
   <link href="{{ asset('css/main.css') }}" rel="stylesheet">
   <link href="{{ asset('css/page-landing/page-landing.css') }}" rel="stylesheet">
@@ -14,32 +14,67 @@
   <title>Technical Share</title>
 </head>
 
-<body id="page-landing">
+<body>
   <div id="container">
-    <div class="logo-container">
-      <img src="{{ asset('img/logo_transparent.png') }}" alt="Technical Share Logo" />
-      <h1>Plataforma onde você encontra pessoas da tecnologia</h1>
-      <p>Você poderá achar um profissional ideal para sua área de estudo e ter oportunidade de agendar desde um bate-papo mais rápido até uma mentoria mais complexa, onde vocês poderão trocar conhecimentos</p>
+    <div class="navbar">
+
+      <img src="{{ asset('img/logo.png') }}" alt="Logo" class="logo">
+      <div class="logo-text">
+        <h4>TECHNICAL SHARE</h4>
+        <p>o seu futuro agora!</p>
+      </div>
+
+      <nav>
+        <ul id="menu-list">
+          <li><a href="#">Quem somos</a></li>
+          <li><a href="#">Quero ser mentor</a></li>
+          <li><a href="#">Quero ser mentorado</a></li>
+        </ul>
+      </nav>
+      <img src="{{ asset('img/menu-icon.png') }}" class="menu-icon" alt="icone-menu" onclick="toggleMenu()">
     </div>
 
-    <img class="hero-image" src="{{ asset('img/home-intro.png') }}" alt="Plataforma de Estudos">
+    <main class="hero-center">
+      <h2>Sozinho você vai mais rápido, mas juntos vamos mais longe!</h2>
+      <img src="{{ asset('img/hero-image.png') }}" alt="imagem-tech">
+    </main>
 
-    <div class="buttons-container">
-      <a href="/tela_1" class="study">
-        <img src="{{ asset('img/studying.png')}} " alt="Estudar">
-        Aluno
-      </a>
-      <a href="/tela_2" class="give-classes">
-        <img src="{{ asset('img/teachings.png')}}" alt="Dar aulas">
-        Mentor
-      </a>
+    <div class="text-orange">
+      <p>A <span>Technical Share</span> é uma plataforma que <span>conecta profissionais</span> da área de tecnologia a estudantes para a <span>troca de experiências</span> por meio de mentorias.</p>
     </div>
 
-    <p class="connections">
-      300 conexões realizadas
-      <img src="{{ asset ('img/orange-juice32.png')}}" alt="orange-juice">
-    </p>
+    <div class="card-info">
+      <div class="card-box">
+        <h3>O que é mentoria?</h3>
+        <p>É um processo prático de crescimento profissional em que um mentor ensina ou dá ajuda e conselhos a uma pessoa menos experiente</p>
+      </div>
+      <div class="card-box">
+        <h3>Objetivo da mentoria</h3>
+        <p>Possibilitar a troca de experiências entre profissionais que já atuam no mercado e estudantes que estão iniciando ou em transição de carreira</p>
+      </div>
+      <div class="card-box">
+        <h3>Como funciona?</h3>
+        <p>O mentorado agenda a mentoria conforme o tipo de assunto que deseja desenvolver e conforme a disponibilidade do mentor</p>
+      </div>
+    </div>
+
+    <footer>
+
+    </footer>
   </div>
+
+  <script>
+    var menuList = document.getElementById("menu-list");
+    menuList.style.maxHeight = "0px";
+
+    function toggleMenu() {
+      if (menuList.style.maxHeight == "0px") {
+        menuList.style.maxHeight = "130px";
+      } else {
+        menuList.style.maxHeight = "0px";
+      }
+    }
+  </script>
 </body>
 
 </html>
