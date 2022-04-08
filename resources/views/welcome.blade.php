@@ -9,7 +9,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
   <link href="{{ asset('css/main.css') }}" rel="stylesheet">
-  <link href="{{ asset('css/page-landing/page-landing.css') }}" rel="stylesheet">
 
   <title>Technical Share</title>
 </head>
