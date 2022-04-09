@@ -20,7 +20,7 @@
         </div>
         <ul class="nav_list">
             <li>
-                <a href="#">
+                <a href="">
                     <i class="bx bx-grid-alt"></i>
                     <span class="links_name">Home</span>
                 </a>
@@ -71,16 +71,9 @@
 -->
     </div>
     <div class="home_content">
-        <div class="text">Contúdo na Home</div>
+        <div class="text"><a href="/mentorias/create">criar mentorias</a></div>
     </div>
-    <script>
-        let btn = document.querySelector("#btn");
-        let sidebar = document.querySelector(".sidebar");
-
-        btn.onclick = function() {
-            sidebar.classList.toggle("active");
-        }
-    </script>
+    <script src="/js/script.js"></script>
 
 </body>
 

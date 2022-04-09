@@ -12,19 +12,24 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Http\Controllers\MentoriaController; // importa o Controller "Mentoria"
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', [MentoriaController::class, 'index']); //usando na rota 'index'
+
+Route::get('/mentorias/create', [MentoriaController::class, 'create']);// rota para criação das mentorias
+
+Route::get('/home', function () {
+    return view('home');
 });
 
-Route::get('/tela_1', function(){
-    return view('tela_1');
+Route::get('/mensagens', function(){
+    return view('mensagens');
 });
 
-Route::get('/tela_2', function(){
-    return view('tela_2');
+Route::get('/agenda', function(){
+    return view('agenda');
 });
 
-Route::get('/tela_3', function(){
-    return view('tela_3');
+Route::get('/perfil', function(){
+    return view('perfil');
 });
