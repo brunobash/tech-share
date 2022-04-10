@@ -3,118 +3,159 @@
   --color-secondary: #FF7900;
   --color-third: #B2B6FF;
   --color-text: #FFFFFF;
-  --color-card-box: #C4C4C4;
-
+  --color-footer: rgba(196, 196, 196, 0.2);
+  --color-btn-card: #FF9E00;
 }
 
 *{
   margin: 0;
   padding: 0;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
-.logo{
-  filter: invert(1);
-  margin-left: -0.6rem;
-}
-
-.navbar{
-  background: var(--color-primary);
-  color: var(--color-text);
-  display: flex;
-  padding: 1rem;
-}
-
-.navbar h4{
-  margin-left: 1rem;
-  font-weight: 500;
-}
-
-.navbar p{
-  margin-left: 2rem;
-  font-size: 0.8rem;
-  font-weight: 400;
-}
-
-nav{
-  flex: 1;
-  text-align: right;
-}
-
-nav ul{
-  width: 100%;
-  background: linear-gradient(var(--color-primary), var(--color-secondary));
+header{
   position: absolute;
-  top: 4rem;
-  right: 0;
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  background: var(--color-primary);
+  width: 100%;
+  box-sizing: border-box;
+  height: 129px;
+}
+
+header .logo{
+  filter: invert(1);
+  float: left;
+  margin-top: 2.5rem;
+  margin-right: 2rem;
+}
+
+header .logo-text{
+  color: var(--color-text);
+  height: 50px;
+  line-height: 40px;
+  font-size: 26px;
+  float: left;
+  font-weight: 500;
   
 }
 
-nav ul li{
-  display: block;
-  margin: 0.8rem ;
+header .logo-text h3{
+  font-weight: 700;
+  font-family: "IBM Plex Sans Thai";
+  margin-top: 1rem;
 }
 
-nav ul li a{
-  text-decoration: none;
+header .logo-text p{
+  font-weight: 400;
+  text-align: center;
+}
+
+header nav{
+  float: right;
+}
+
+header nav span{
   color: var(--color-text);
-  font-size: 0.9rem;
-  font-weight: 500;
 }
 
-nav ul li a:hover{
-  color: var(--color-third);
+header nav ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-.menu-icon{
+header nav ul li{
+  list-style: none;
+}
+
+header nav ul li a{
+  font-size: 24px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 35px;
+  margin-right: 70px;
+  padding: 0 10px;
+  color: var(--color-text);
+  text-decoration: none;
   display: block;
 }
 
-#menu-list{
-  overflow: hidden;
-  transition: 0.5s;
+header nav ul li a:hover{
+  color: var(--color-text);
+  background: var(--color-secondary);
+  border-radius: 50px;
 }
 
-.menu-icon{
+header nav span{
+  border: 2px solid var(--color-text);
+  height: 70px;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.menu-toggle{
   filter: invert(1);
+  float: right;
+  line-height: 50px;
+  cursor: pointer;
+  display: none;
+  margin-top: 20px;
 }
 
-.hero-center{
+main{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0;
+  margin-top: 150px;
 }
 
-.hero-center img{
-  width: 70%;
-}
-
-.hero-center h2{
-  font-size: 1rem;
-  margin-left: 0.4rem;
+main h2{
   font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  width: 32%;
+  margin-bottom: 60px;
+  margin-left: 50px;
+}
+
+main .hero-image{
+  width: 50%;
 }
 
 .text-orange{
-  background-color: var(--color-secondary);
-  color: var(--color-text);
-  font-size: 1.3rem;
-  padding: 2rem 0;
   display: flex;
   justify-content: right;
+  text-align: center;
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+  font-size: 40px;
+  padding: 50px 0;
   font-weight: 400;
   margin-bottom: 1rem;
 }
+
 .text-orange p{
-  margin: 0 0.5rem;
+  font-weight: 400;
+  margin: 50px;
 }
 
 .text-orange span{
   font-weight: 700;
 }
 
+.card-info{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 .card-box{
+  margin-right: 4rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
   background: linear-gradient(180deg, #B3B6FF 0%, rgba(179, 182, 255, 0) 100%);
   margin-bottom: 2rem;
   padding-bottom: 2.5rem;
@@ -122,82 +163,114 @@ nav ul li a:hover{
   box-shadow: 2px 3px 16px -3px #000000;
 }
 
+.card-box:first-child{
+  margin-left: 4rem;
+}
+
 .card-box h3{
-  text-align: center;
   color: var(--color-text);
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   background-color: var(--color-primary);
   border-radius: 0.7rem;
-  padding: 0.5rem;
+  padding: 0.5rem 0;
   margin-bottom: 0.7rem;
 }
 
 .card-box p{
-  text-align: center;
+  width: 70%;
   padding: 1rem 1rem 0;
+  margin-left: 2.5rem;
   font-weight: 500;
 }
 
-@media(min-width: 1024px){
-  .logo{
-    margin-left: 0;
+footer{
+  background: var(--color-footer);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 8rem;
+}
+
+footer .card-footer{
+  height: 20rem;
+  width: 20rem;
+  margin: 5rem 0;
+  font-size: 1.5rem;
+  background: var(--color-text);
+  margin-bottom: 2rem;
+  padding-bottom: 5rem;
+  box-shadow: 2px 3px 16px -3px #000000;
+}
+
+footer .card-footer .image-footer{
+  width: 20rem;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+footer .card-footer a{
+  font-weight: 700;
+  color: #22255C;
+  background: var(--color-btn-card);
+  text-decoration: none;
+  margin-left: 4.8rem;
+  border-radius: 5rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.btn-up{
+  background: var(--color-primary);
+  width: 3%;
+  border-radius: 50%;
+  padding: 0.6rem;
+  display: flex;
+  justify-content: center;
+  margin-top: -5rem;
+  margin-right: 3rem;
+  cursor: pointer;
+  float: right;
+}
+
+ .btn-up img{
+  filter: invert(1);
+}
+
+@media(max-width: 991px){
+  header{
+    padding: 0 20px;
+  }
+  
+  .menu-toggle{
+    display: block;
   }
 
-  .navbar{
-    padding: 1rem;
+  header nav{
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: #333;
+    top: 50px;
+    left: -100%;
+    transition: 0.5s;
   }
-
-  .navbar h4{
-    line-height: 2;
+  
+  header nav.active{
+    left: 0;
   }
-
-  nav{
-    text-align: center;
-  }
-
-  nav ul{
-    background: var(--color-primary);
-    position: initial;
-  }
-
-  nav ul li{
-    display: inline-block;
-  }
-
-  nav ul li a{
-    font-size: 1.3rem;
-    margin-left: 3rem;
-  }
-
-  nav ul li a:hover{
-    color: var(--color-secondary);
-  }
-
-  /* .menu-icon:disabled{
+  
+  header nav span{
     display: none;
-  } */
-
-  .hero-center h2{
-    font-size: 2.7rem;
-    margin-left: 1.5rem;
   }
 
-  .text-orange{
-    font-size: 2.5rem;
-    padding: 5rem;
-  }
-
-  .card-info{
-    display: flex;
-    justify-content: center;
+  header nav ul{
+    display: block;
     text-align: center;
   }
-  .card-box{
-    margin-bottom: 2rem;
-    padding-bottom: 2.5rem;
-    border-radius: 0.7rem; 
-    width: 33%;
-    margin: 2rem;
+
+  header nav ul li a{
+    border-bottom: 1px solid rgba(0,0,0,.2);
   }
+
 }
