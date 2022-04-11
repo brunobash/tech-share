@@ -12,10 +12,17 @@
 </head>
 
 <body>
+
+    <div id="mentorias">
+        <h3>Mentorias disponíveis</h3>
+        <div class="mentorias_disponiveis">
+
+
+            <!-- ===================== CARDs =====================
     <div class="container">
         <div class="box">
             <div class="image">
-                <!-----<img src="img1.jpeg">------->
+                -<img src="img1.jpeg">
             </div>
             <div class="name">David Chrish</div>
             <div class="name_job">Dev Backend</div>
@@ -38,7 +45,7 @@
         </div>
         <div class="box">
             <div class="image">
-                <!------  <img src="img2.jpeg" alt="">--->
+                  <img src="img2.jpeg" alt="">
             </div>
             <div class="name">David Chrish</div>
             <div class="name_job">Dev Backend</div>
@@ -61,7 +68,7 @@
         </div>
         <div class="box">
             <div class="image">
-                <!---- <img src="img3.jpeg" alt="">---->
+                <img src="img3.jpeg" alt="">
             </div>
             <div class="name">David Chrish</div>
             <div class="name_job">Dev Backend</div>
@@ -84,9 +91,16 @@
             </div>
         </div>
     </div>
-    <div class="create_mentoria">
-        <a href="/mentoria/create">Criar Mentoria</a>
+-->
+        </div>
     </div>
+
+    <div class="create_mentoria">
+        <a href="/mentorias/create">Criar Mentoria</a>
+    </div>
+
+
+
 </body>
 
 @endsection

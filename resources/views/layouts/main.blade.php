@@ -59,16 +59,14 @@
 
     <div class="home_content">
         <div class="text">
-        <nav>
-            <ul>
-                <li>Fórum</li>
-                <li>News</li>
-                <li>Notificações</li>
-            </ul>
-        </nav>
-        @yield('content')
+            <div class="navbar">
+                <nav>
+                    barra de navegação
+                </nav>
+            </div>
+            @yield('content')
         </div>
-    
+
     </div>
 
     <script src="/js/script.js"></script>
