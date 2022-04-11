@@ -15,7 +15,7 @@
 <body>
   <header>
     <div class="logo">
-      <img src="{{ asset('img/logo.png') }}" alt="Logo">
+      <img src="{{ asset('img/logo-final.png') }}" alt="Logo">
     </div>
     <div class="logo-text">
       <h3>TECHNICAL SHARE</h3>
@@ -64,10 +64,11 @@
       <a href="#">QUERO PARTICIPAR</a>
     </div>
   </footer>
-  <div class="btn-up">
-    <img src="{{ asset('img/seta-para-cima.png') }}" alt="botão volta pro topo">
+  <div class="back-to-top">
+    <img src="img/seta-para-cima.png" alt="botão volta pro topo">
   </div>
 
+  <!------------- JS ---------------->
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script>
     $(document).ready(function() {
@@ -75,6 +76,14 @@
         $('nav').toggleClass('active')
       })
     })
+
+    $(document).ready(function() {
+      $(".back-to-top").click(function() {
+        $("html, body").animate({
+          scrollTop: 0
+        }, 1000);
+      });
+    });
   </script>
 </body>
 
