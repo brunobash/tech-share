@@ -22,6 +22,10 @@ Route::get('/home', function () {
     return view('home');
 });
 
+Route::get('/filtro', function(){
+    return view('filtro');
+});
+
 Route::get('/mensagens', function(){
     return view('mensagens');
 });

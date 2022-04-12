@@ -96,7 +96,7 @@
     </div>
 
     <div class="create_mentoria">
-        <a href="/mentorias/create">Criar Mentoria</a>
+        <!--<a href="/mentorias/create">Criar Mentoria</a>-->
     </div>
 
 

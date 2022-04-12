@@ -61,7 +61,9 @@
         <div class="text">
             <div class="navbar">
                 <nav>
-                    barra de navegação
+                    <ul>
+                        <li><a href="/filtro">Filtrar</a></li>
+                    </ul>
                 </nav>
             </div>
             @yield('content')

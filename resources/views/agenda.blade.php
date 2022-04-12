@@ -5,11 +5,13 @@
 @section('content')
 
 <div class="container_agenda">
+    <!--
     <div class="calendario">
         <h2>calendario</h2>
     </div>
+    -->
     <div class="mentorias_agendadas">
-        <h2>mentorias agendadas</h2>
+        <h2>Mentorias agendadas</h2>
     </div>
 </div>
 
