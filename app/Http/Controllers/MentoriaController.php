@@ -4,13 +4,15 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Models\Mentoria;
+
 class MentoriaController extends Controller
 {
     public function index(){
-        $nome = "BRUNO";
-        $idade = 18;
 
-        return view('welcome');
+        $mentorias = Mentoria::all(); //chama todas as metorias disponíveis no BD
+
+        return view('home', ['mentorias' => $mentorias]);// chamando todas as mentorias do BD para a Home
     }
 
     public function create(){

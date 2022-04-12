@@ -1,80 +1,166 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.main')
+
+@section('title', 'Home')
+
+@section('content')
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link href="/css/styles.css" rel="stylesheet">
-    <title>Technical Share</title>
+    <link rel="stylesheet" href="/css/home_card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <style>
+        .filterDiv {
+            float: left;
+            background-color: #2196F3;
+            color: #ffffff;
+            width: 100px;
+            line-height: 100px;
+            text-align: center;
+            margin: 2px;
+            display: none;
+        }
+
+        .show {
+            display: block;
+        }
+
+        .container {
+            margin-top: 20px;
+            overflow: hidden;
+        }
+
+        /* Style the buttons */
+        .btn {
+            border: none;
+            outline: none;
+            padding: 12px 16px;
+            background-color: #f1f1f1;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+
+        .btn:hover {
+            background-color: #ddd;
+        }
+
+        .btn.active {
+            background-color: #666;
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="sidebar">
-        <div class="logo_content">
-            <div class="logo">
-                <div class="logo_name">Technical Share</div>
-            </div>
-            <i class="bx bx-menu" id="btn"></i>
-        </div>
-        <ul class="nav_list">
-            <li>
-                <a href="">
-                    <i class="bx bx-grid-alt"></i>
-                    <span class="links_name">Home</span>
-                </a>
-                <a href="#">
-                    <span class="tooltip">Home</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="bx bx-chat"></i>
-                    <span class="links_name">Mensagens</span>
-                </a>
-                <a href="#">
-                    <span class="tooltip">Mensagens</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="bx bx-calendar"></i>
-                    <span class="links_name">Agenda</span>
-                </a>
-                <a href="#">
-                    <span class="tooltip">Agenda</span </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="bx bx-user"></i>
-                    <span class="links_name">Perfil</span>
-                </a>
-                <a href="#">
-                    <span class="tooltip">Perfil</span>
-                </a>
-            </li>
-        </ul>
-        <!--
-        <div class="profile_content">
-            <div class="profile">
-                <div class="profile_details">
-                  <img src="/img/perfil.jpg" alt="perfil"> 
-                  <div class="nome_area">
-                        <div class="nome">Raquel Andrade</div>
-                        <div class="area">Dev Full Stack</div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
--->
-    </div>
-    <div class="home_content">
-        <div class="text"><a href="/mentorias/create">criar mentorias</a></div>
-    </div>
-    <script src="/js/script.js"></script>
 
+    <nav class="navbar">
+        <ul>
+            <li><a href="/filtro">Filtrar</a></li>
+        </ul>
+    </nav>
+
+    <div id="mentorias">
+        <h3>Mentorias disponíveis</h3>
+        <div class="mentorias_disponiveis">
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"><h4>Todos</h4></button>
+                <button class="btn" onclick="filterSelection('dev')"><h4>Dev</h4></button>
+                <button class="btn" onclick="filterSelection('ux')"><h4>Dev</h4></button>
+            </div>
+
+            <div class="container">
+                <div class="filterDiv dev">Frontend</div>
+                <div class="filterDiv dev">Backend</div>
+                <div class="filterDiv dev">DevOps</div>
+                <div class="filterDiv ux">UI</div>
+                <div class="filterDiv ux">UX writting</div>
+                <div class="filterDiv ux">UX searching</div>
+            </div>
+
+
+            <!-- ===================== CARDs =====================
+    <div class="container">
+        <div class="box">
+            <div class="image">
+                -<img src="img1.jpeg">
+            </div>
+            <div class="name">David Chrish</div>
+            <div class="name_job">Dev Backend</div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="skills">
+                <p>
+                    ReacJS, Vue.js, Node.js
+                </p>
+            </div>
+            <div class="btns">
+                <button>Read more</button>
+                <button>Ver agenda</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                  <img src="img2.jpeg" alt="">
+            </div>
+            <div class="name">David Chrish</div>
+            <div class="name_job">Dev Backend</div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="skills">
+                <p>
+                    ReacJS, Vue.js, Node.js
+                </p>
+            </div>
+            <div class="btns">
+                <button>Read More </button>
+                <button>Ver agenda</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img3.jpeg" alt="">
+            </div>
+            <div class="name">David Chrish</div>
+            <div class="name_job">Dev Backend</div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="skills">
+                <p>
+                    ReacJS, Vue.js, Node.js
+                </p>
+
+            </div>
+            <div class="btns">
+                <button>Read More</button>
+                <button>Ver agenda</button>
+            </div>
+        </div>
+    </div>
+-->
+        </div>
+    </div>
+
+    <div class="create_mentoria">
+        <!--<a href="/mentorias/create">Criar Mentoria</a>-->
+    </div>
+
+
+    <script src="/js/filter.js"></script>
 </body>
 
-</html>
+@endsection

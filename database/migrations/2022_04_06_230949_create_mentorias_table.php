@@ -17,9 +17,9 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
             $table->string('mentor');
-            $table->string('titulo');
-            $table->text('habilidades');
-            $table->date('dd, mm, YY');
+            $table->string('cargo');
+            $table->text('skills');
+            $table->date('data_e_hora'); //data da mentoria
         });
     }
 

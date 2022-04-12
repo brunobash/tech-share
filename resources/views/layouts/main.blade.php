@@ -25,45 +25,43 @@
                     <span class="links_name">Home</span>
                 </a>
                 <a href="#">
-                    <span class="tooltip">Home</span>
+                    <!--<span class="tooltip">Perfil</span>-->
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="/mensagens">
                     <i class="bx bx-chat"></i>
                     <span class="links_name">Mensagens</span>
                 </a>
                 <a href="#">
-                    <span class="tooltip">Mensagens</span>
+                    <!--<span class="tooltip">Perfil</span>-->
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="/agenda">
                     <i class="bx bx-calendar"></i>
                     <span class="links_name">Agenda</span>
                 </a>
                 <a href="#">
-                    <span class="tooltip">Agenda</span </a>
+                    <!--<span class="tooltip">Perfil</span>-->
             </li>
             <li>
-                <a href="#">
+                <a href="/perfil">
                     <i class="bx bx-user"></i>
                     <span class="links_name">Perfil</span>
                 </a>
-                <a href="#">
-                    <span class="tooltip">Perfil</span>
+                <a href="/perfil">
+                    <!--<span class="tooltip">Perfil</span>-->
                 </a>
             </li>
         </ul>
     </div>
 
     <div class="home_content">
-    @yield('content')
-    
         <div class="text">
-        
+            @yield('content')
         </div>
-    
+
     </div>
 
     <script src="/js/script.js"></script>

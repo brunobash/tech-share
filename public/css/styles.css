@@ -246,6 +246,12 @@ body {
 
 }
 
+.home_content .text .navbar{
+    background-color: whitesmoke;
+    border-radius: 6px;
+    height: 55px;
+}
+
 .sidebar.active ~ .home_content{
     width: calc(100% - 240px);
     left: 240px;
