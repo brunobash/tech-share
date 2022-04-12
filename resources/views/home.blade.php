@@ -9,13 +9,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/home_card.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <style>
+        .filterDiv {
+            float: left;
+            background-color: #2196F3;
+            color: #ffffff;
+            width: 100px;
+            line-height: 100px;
+            text-align: center;
+            margin: 2px;
+            display: none;
+        }
+
+        .show {
+            display: block;
+        }
+
+        .container {
+            margin-top: 20px;
+            overflow: hidden;
+        }
+
+        /* Style the buttons */
+        .btn {
+            border: none;
+            outline: none;
+            padding: 12px 16px;
+            background-color: #f1f1f1;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+
+        .btn:hover {
+            background-color: #ddd;
+        }
+
+        .btn.active {
+            background-color: #666;
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
 
+    <nav class="navbar">
+        <ul>
+            <li><a href="/filtro">Filtrar</a></li>
+        </ul>
+    </nav>
+
     <div id="mentorias">
         <h3>Mentorias disponíveis</h3>
         <div class="mentorias_disponiveis">
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"><h4>Todos</h4></button>
+                <button class="btn" onclick="filterSelection('dev')"><h4>Dev</h4></button>
+                <button class="btn" onclick="filterSelection('ux')"><h4>Dev</h4></button>
+            </div>
+
+            <div class="container">
+                <div class="filterDiv dev">Frontend</div>
+                <div class="filterDiv dev">Backend</div>
+                <div class="filterDiv dev">DevOps</div>
+                <div class="filterDiv ux">UI</div>
+                <div class="filterDiv ux">UX writting</div>
+                <div class="filterDiv ux">UX searching</div>
+            </div>
 
 
             <!-- ===================== CARDs =====================
@@ -100,7 +160,7 @@
     </div>
 
 
-
+    <script src="/js/filter.js"></script>
 </body>
 
 @endsection

@@ -59,13 +59,6 @@
 
     <div class="home_content">
         <div class="text">
-            <div class="navbar">
-                <nav>
-                    <ul>
-                        <li><a href="/filtro">Filtrar</a></li>
-                    </ul>
-                </nav>
-            </div>
             @yield('content')
         </div>
 
