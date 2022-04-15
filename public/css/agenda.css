@@ -1,0 +1,49 @@
+* {
+    font-family: "Poppins";
+
+}
+
+h2 {
+    margin: 0, auto;
+}
+
+.filterDiv {
+    float: center;
+    background-color: #B2B6FF;
+    color: #ffffff;
+    width: 570px;
+    line-height: 100px;
+    text-align: center;
+    margin: 120px 240px 10px 100px;
+    padding: 25px;
+    display: none;
+    border-radius: 12px;
+}
+
+.show {
+    display: block;
+}
+
+.container {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+    border: 2px solid #F2BB61;
+    border-radius: 15px;
+    outline: none;
+    padding: 14px 35px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #F2BB61;
+}
+
+.btn.active {
+    background-color: #F2BB61;
+    color: white;
+}

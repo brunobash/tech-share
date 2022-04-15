@@ -17,14 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/tela_1', function(){
-    return view('tela_1');
+Route::get('/login', function(){
+    return view('login');
 });
 
-Route::get('/tela_2', function(){
-    return view('tela_2');
+Route::get('/home', function(){
+    return view('home');
 });
 
-Route::get('/tela_3', function(){
-    return view('tela_3');
+Route::get('/agenda', function(){
+    return view('agenda');
 });
