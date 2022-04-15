@@ -9,11 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@700&family=Inter:wght@400;500;700&family=Work+Sans:wght@700&display=swap"
       rel="stylesheet"
     />
-<<<<<<< HEAD:resources/views/pesquisar-profissionais.blade.php
     <link rel="stylesheet" href="{{ asset('css/pesquisar-mentoria.css') }}" />
-=======
-    <link rel="stylesheet" href="agendar.css" />]
->>>>>>> 6680e6b9422a2c97c167f3e701652bc4fe8a8ba7:resources/views/cards/agendar.html
 
     <title>Pesquisar Profissionais | Technical Share</title>
   </head>
