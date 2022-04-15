@@ -15,11 +15,11 @@
 <body>
   <header>
     <div class="back">
-      <a href="#">
+      <a href="/">
         <img src="{{ asset('img/seta-para-tras.png') }}" alt="botão voltar">
       </a>
     </div>
-    <img src="{{ asset('img/login.css') }}" alt="Logo" class="logo">
+    <img src="{{ asset('img/logo-bg.png') }}" alt="Logo" class="logo">
     <div class="line-header"></div>
   </header>
 
@@ -32,7 +32,7 @@
     </form>
 
     <div class="btn">
-      <a href="#">Entrar</a>
+      <a href="/home">Entrar</a>
       <div class="line-button"></div>
       <a href="#">Login com Google <img src="{{ asset('img/google-icon.png') }}" alt="google"></a>
     </div>

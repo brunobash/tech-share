@@ -26,7 +26,7 @@
         <li><a href="#">Sobre</a></li>
         <li><a href="#">Quero Participar</a></li>
         <span></span>
-        <li><a href="#">Login</a></li>
+        <li><a href="/login">Login</a></li>
       </ul>
     </nav>
     <div class="menu-toggle">
