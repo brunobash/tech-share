@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <title>Technical Share</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/logo-final.png" alt="Logo">
+    </div>
+    <div class="logo-text">
+      <h3>TECHNICAL SHARE</h3>
+      <p>o seu futuro agora!</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="pages/home.html">Quero Participar</a></li>
+        <span></span>
+        <li><a href="pages/login.html">Login</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle">
+      <img src="img/menu-icon.png" alt="menu">
+    </div>
+  </header>
+
+  <main>
+    <h2>Sozinho você vai mais rápido, mas juntos vamos mais longe!</h2>
+    <img src="img/hero-image.png" alt="imagem-tech" class="hero-image">
+  </main>
+
+  <div class="text-orange">
+    <p>A <span>Technical Share</span> é uma plataforma que <span>conecta profissionais</span> da área de tecnologia a estudantes para a <span>troca de experiências</span> por meio de mentorias.</p>
+  </div>
+
+  <div class="card-info">
+    <div class="card-box">
+      <h3>O que é mentoria?</h3>
+      <p>É um processo prático de crescimento profissional em que um mentor ensina ou dá ajuda e conselhos a uma pessoa menos experiente</p>
+    </div>
+    <div class="card-box">
+      <h3>Objetivo</h3>
+      <p>Possibilitar a troca de experiências entre profissionais que já atuam no mercado e estudantes que estão iniciando ou em transição de carreira</p>
+    </div>
+    <div class="card-box">
+      <h3>Como funciona?</h3>
+      <p>O mentorado agenda a mentoria conforme o tipo de assunto que deseja desenvolver e conforme a disponibilidade do mentor</p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="card-footer">
+      <img src="img/study.png" alt="imagem estudando" class="image-footer">
+      <a href="pages/login.html">QUERO PARTICIPAR</a>
+    </div>
+  </footer>
+  <div class="back-to-top">
+    <img src="img/seta-para-cima.png" alt="botão volta pro topo">
+  </div>
+
+  <!------------- JS ---------------->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.menu-toggle').click(function() {
+        $('nav').toggleClass('active')
+      })
+    })
+
+    $(document).ready(function() {
+      $(".back-to-top").click(function() {
+        $("html, body").animate({
+          scrollTop: 0
+        }, 1000);
+      });
+    });
+  </script>
+</body>
+
+</html>
