@@ -23,7 +23,7 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#">Sobre</a></li>
+        <li><a href="tela_1">Sobre</a></li>
         <li><a href="#">Quero Participar</a></li>
         <span></span>
         <li><a href="#">Login</a></li>

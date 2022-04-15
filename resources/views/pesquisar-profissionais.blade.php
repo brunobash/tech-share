@@ -9,9 +9,9 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@700&family=Inter:wght@400;500;700&family=Work+Sans:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="{{ asset('css/agendamento.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/pesquisar-mentoria.css') }}" />
 
-    <title>Agendamento</title>
+    <title>Pesquisar Profissionais | Technical Share</title>
   </head>
   <body>
     <nav>
