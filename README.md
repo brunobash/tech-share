@@ -1,6 +1,7 @@
-# Título do projeto
+# Technical Share
 
-Um parágrafo da descrição do projeto vai aqui
+O Technical Share é uma aplicação web que tem como objetivo conectar profissionais de tecnologias de diversos níveis para trocarem experiências e facilitar 
+o registo de habilidades do profissionais da [FCamara](https://digital.fcamara.com.br/programadeformacao). Trabalhamos em  
 
 ## 🚀 Começando
 
@@ -8,17 +9,9 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 Consulte **Implantação** para saber como implantar o projeto.
 
-### 📋 Pré-requisitos
-
-De que coisas você precisa para instalar o software e como instalá-lo?
-
-```
-Dar exemplos
-```
-
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+Você só irá precisar da o "git clone" do repositório e rodar no navegador a partir do arquivo "index.html"
 
 Diga como essa etapa será:
 
@@ -32,68 +25,30 @@ E repita:
 Até finalizar
 ```
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-## ⚙️ Executando os testes
-
-Explicar como executar os testes automatizados para este sistema.
-
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-## 📦 Desenvolvimento
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
-
-## 🛠️ Construído com
+## 🛠️ Tecnologias
 
 Mencione as ferramentas que você usou para criar seu projeto
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
+HTML5, CSS3, Bootstrap, JS e Jquery
+* HTML5;
+* CSS3;
+* JavaScript;
+* Jquery;
+* Bootstrap.
 
 ## 📌 Versão
 
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+Nós usamos [GIT](https://git-scm.com/) para controle de versão. 
 
-## ✒️ Autores
+## 👨‍💻 Squad
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+* **Diego Apolinário** - *DEV* - [GitHub](https://github.com/dieegoapolinario)
+* **Bianca Groner** - *DEV* - [fulanodetal](https://github.com/biancagroner)
+* **Andrews Hernandez** *DEV* - [GitHub](https://github.com/AndrewsHernandez)
+* **Bruno Vinícius** *DEV* - [GitHub](https://github.com/captainritchiejohnson01101)
 
 ## 📄 Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
-
-## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢
-* Convide alguém da equipe para uma cerveja 🍺 
-* Obrigado publicamente 🤓.
-* etc.
-
+Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
 
 ---
-⌨️ com ❤️ pelo [Squad 6] 😊
+⌨️ com 🧡 pelo Squad 6. 😊
