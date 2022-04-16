@@ -3,6 +3,7 @@
 A Technical Share é uma aplicação web que tem como objetivo conectar profissionais de tecnologias de diversos níveis para trocarem experiências e facilitar 
 o registo de habilidades dos profissionais da [FCamara](https://digital.fcamara.com.br/programadeformacao). Trabalhamos no projeto focando nas pessoas que estão iniciando sua carreira em tecnologia. 
 
+
 ## 🚀 Instalação
 
 Você só irá precisar da o "git clone" do repositório e rodar no navegador a partir do arquivo "index.html"
@@ -32,6 +33,12 @@ HTML5, CSS3, Bootstrap, JS e Jquery
 ## 📌 Versão
 
 Nós usamos [GIT](https://git-scm.com/) para controle de versão. 
+
+## 🚀 Próximas Versões
+
+Em versões futuras pretendemos implementar mais features como:
+* 01 - Comunidades para interação entre usuários;
+* 02 - Bate-papo usando o Pusher, entre outras ideias.
 
 
 ## 👨‍💻 Squad
