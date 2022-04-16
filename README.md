@@ -39,12 +39,15 @@ HTML5, CSS3, Bootstrap, JS e Jquery
 
 Nós usamos [GIT](https://git-scm.com/) para controle de versão. 
 
+
 ## 👨‍💻 Squad
 
-* **Diego Apolinário** - *DEV* - [GitHub](https://github.com/dieegoapolinario)[LinkedIn](https://github.com/biancagroner)
-* **Bianca Groner** - *DEV* - [GitHub](https://github.com/biancagroner)[LinkedIn](https://github.com/biancagroner)
-* **Andrews Hernandez** *DEV* - [GitHub](https://github.com/AndrewsHernandez)[LinkedIn](https://github.com/biancagroner)
-* **Bruno Vinícius** *DEV* - [GitHub](https://github.com/captainritchiejohnson01101)[LinkedIn](https://github.com/biancagroner)
+* **Danubia Costa** - *DEV* - [GitHub](https://github.com/dieegoapolinario) [LinkedIn](https://github.com/biancagroner)
+* **Diego Apolinário** - *DEV* - [GitHub](https://github.com/dieegoapolinario) [LinkedIn](https://github.com/biancagroner)
+* **Bianca Groner** - *DEV* - [GitHub](https://github.com/biancagroner) [LinkedIn](https://github.com/biancagroner)
+* **Bruno Vinícius** *DEV* - [GitHub](https://github.com/captainritchiejohnson01101) [LinkedIn](https://github.com/biancagroner)
+* **Andrews Hernandez** *DEV* - [GitHub](https://github.com/AndrewsHernandez) [LinkedIn](https://github.com/biancagroner)
+
 
 ## 📄 Licença
 
