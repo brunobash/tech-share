@@ -29,6 +29,11 @@ HTML5, CSS3, Bootstrap, JS e Jquery
 * Jquery;
 * Bootstrap.
 
+* Nosso [Trello](https://trello.com/invite/b/7bmdzTrZ/b31c624def6156afcf29f920af552965/technical-share)
+* [Artigo](https://bit.ly/laranjamecanica_technicalshare_conectandoestudanteseiniciantesnacarreiradetecnologiaaprofissionaisexperientesparamentorias) UX
+* Nosso [Pitch](https://youtu.be/3QwjKsI6O70)
+* Video de [Funcionalidades]()
+
 ## 📌 Versão
 
 Nós usamos [GIT](https://git-scm.com/) para controle de versão. 
