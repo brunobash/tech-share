@@ -1,0 +1,303 @@
+:root {
+  --color-primary: #2e3399;
+  --color-secondary: #ff7900;
+  --color-third: #b2b6ff;
+  --color-text: #ffffff;
+  --color-footer: rgba(196, 196, 196, 0.2);
+  --color-btn-card: #ff9e00;
+  --color-login: #22255c;
+  --color-background: #f2f2f2;
+  --color-bg-hover: #F2BB61;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--color-background);
+}
+
+nav {
+  position: fixed;
+  width: 60px;
+  height: 100%;
+  background-color: var(--color-primary);
+  transition: 0.5s;
+  overflow: hidden;
+  font-weight: 700;
+}
+
+nav:hover {
+  width: 250px;
+}
+
+nav ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav ul li {
+  position: relative;
+  width: 100%;
+  list-style: none;
+}
+
+nav ul li:hover {
+  background: var(--color-secondary);
+}
+
+nav ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: var(--color-text);
+  margin-bottom: 4rem;
+}
+
+nav ul li a:first-child {
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+}
+
+nav ul li a .icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+nav ul li a .icon img {
+  width: 50%;
+  border-radius: 50%;
+  min-width: 40px;
+  height: 50px;
+}
+
+nav ul li a .title {
+  position: relative;
+  display: block;
+  font-size: 0.8rem;
+  line-height: 60px;
+  white-space: nowrap;
+}
+
+header {
+  display: flex;
+  justify-content: left;
+  margin-left: 33rem;
+}
+
+header h2 {
+  margin-right: 23rem;
+  margin-top: 3rem;
+  color: var(--color-login);
+}
+
+header img{
+  width: 20%;
+  margin-top: -1.5rem;
+}
+
+main {
+  display: flex;
+  font-weight: 700;
+  font-size: 1rem;
+  flex-direction: column;
+  margin-left: 18rem;
+}
+
+form ul{
+  display: flex;
+  list-style: none;
+}
+
+form ul li button{
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--color-login);
+  height: 3rem;
+  width: 9rem;
+  margin-top: -1rem;
+  margin-right: 4rem;
+  border-radius: 50px;
+  border-color: var(--color-bg-hover);
+}
+
+form ul li button:hover{
+  transition: .5s;
+  background: var(--color-bg-hover);
+}
+
+.active{
+  background: var(--color-bg-hover);
+}
+
+.disabled:hover{
+  cursor: not-allowed;
+  background-color: var(--color-background);
+}
+
+form ul li button i{
+  margin-left: 0.5rem;
+  font-size: 20px;
+}
+
+.btn{
+  color: #15A7BB;
+}
+
+.btn2{
+  color: #0F9033;
+}
+
+.btn3{
+  color: #F10000;
+}
+.card-history{
+  background: #B2B6FF;
+  color: var(--color-login);
+  font-size: 16px;
+  width: 50%;
+  display: block;
+  border-radius: 1rem;
+  margin-left: 7rem;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-weight: 400;
+}
+
+.card-history .date{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.card-history .date i{
+  margin-left: -2rem;
+  font-size: 20px;
+}
+
+.card-history .date span{
+  display: block;
+}
+
+.card-history .description, .card-history .media-icons .fav{
+  display: block;
+  margin-left: 6.7rem;
+  margin-top: -6.5rem;
+  margin-bottom: 5rem;
+  line-height: 2;
+}
+
+.card-history .media-icons .fav{
+  margin-top: -4.5rem;
+}
+
+.card-history .media-icons i{
+  color: var(--color-secondary);
+}
+
+.card-history .btn-pesquisar{
+  display: block;
+  margin-left: 6.7rem;
+  margin-top: -3rem;
+}
+
+.card-history .btn-pesquisar button{
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+}
+
+.card-history .btn-pesquisar button:hover{
+  background: var(--color-login);
+  transition: .5s;
+}
+
+@media(max-width: 1120px){
+  nav:hover {
+    width: 140px;
+  }
+
+  header {
+    margin-left: 17.9rem;
+  }
+
+  main {
+    font-size: 1rem;
+    margin-left: 10rem;
+  }
+
+  form ul li button{
+    margin-right: 50px;
+  }
+
+  form .btn-pesquisar{
+    margin-left: 19rem;
+    width: 15rem;
+    font-size: .9rem;
+  }
+}
+
+@media(max-width: 637px){
+  nav:hover {
+    width: 140px;
+  }
+
+  header {
+    margin-left: 5rem;
+  }
+
+
+  header h2 {
+    margin-top: 15rem;
+  }
+
+  header img{
+    height: 50%;
+    margin-left: -32rem;
+  }
+
+
+  main {
+    margin-left: 5rem;
+  }
+  form{
+    margin-right: 1rem;
+  }
+  form ul{
+    display: block;
+  }
+
+  form ul li button{
+    font-size: 10px;
+    height: 3rem;
+    width: 100%;
+    margin-right: 0;
+    
+  }
+
+  form .btn-pesquisar{
+    display: block;
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+}

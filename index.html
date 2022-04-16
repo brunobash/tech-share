@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 
-  <title>Technical Share</title>
+  <title>TECHNICAL</title>
 </head>
-
 <body>
   <header>
     <div class="logo">
@@ -24,9 +22,9 @@
     <nav>
       <ul>
         <li><a href="#">Sobre</a></li>
-        <li><a href="pages/login.html">Quero Participar</a></li>
+        <li><a href="/pesquisar-profissionais.html">Quero Participar</a></li>
         <span></span>
-        <li><a href="pages/login.html">Login</a></li>
+        <li><a href="/login.html">Login</a></li>
       </ul>
     </nav>
     <div class="menu-toggle">
@@ -61,30 +59,26 @@
   <footer>
     <div class="card-footer">
       <img src="img/study.png" alt="imagem estudando" class="image-footer">
-      <a href="pages/login.html">QUERO PARTICIPAR</a>
+      <a href="#">QUERO PARTICIPAR</a>
     </div>
   </footer>
   <div class="back-to-top">
     <img src="img/seta-para-cima.png" alt="botão volta pro topo">
   </div>
 
-  <!------------- JS ---------------->
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script>
-    $(document).ready(function() {
-      $('.menu-toggle').click(function() {
+    $(document).ready(function(){
+      $('.menu-toggle').click(function(){
         $('nav').toggleClass('active')
       })
     })
 
-    $(document).ready(function() {
+    $(document).ready(function () {
       $(".back-to-top").click(function() {
-        $("html, body").animate({
-          scrollTop: 0
-        }, 1000);
+        $("html, body").animate({scrollTop: 0}, 1000);
       });
     });
   </script>
 </body>
-
 </html>
