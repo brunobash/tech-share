@@ -49,7 +49,7 @@ Em versões futuras pretendemos implementar mais features como:
 ## 👨‍💻 Squad
 
 * **Danubia Costa** - *UX/UI Design* - [Medium](http://medium.com/@danubiascosta) [LinkedIn](http://linkedin.com/in/dan%C3%BAbia-costa-uxdesigner)
-* **Diego Apolinário** - *DEV* - [GitHub](https://github.com/dieegoapolinario) [LinkedIn](https://github.com/biancagroner)
+* **Diego Apolinário** - *DEV* - [GitHub](https://github.com/dieegoapolinario) [LinkedIn](https://www.linkedin.com/in/diego-apolinario/)
 * **Bianca Groner** - *DEV* - [GitHub](https://github.com/biancagroner) [LinkedIn](https://www.linkedin.com/in/bianca-groner-745148224/)
 * **Bruno Vinícius** *DEV* - [GitHub](https://github.com/captainritchiejohnson01101) [LinkedIn](https://www.linkedin.com/mwlite/in/brunovinicius01101)
 * **Andrews Hernandez** *DEV* - [GitHub](https://github.com/AndrewsHernandez) [LinkedIn](https://www.linkedin.com/in/andrews-h-a54517184)
