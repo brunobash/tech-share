@@ -20,10 +20,15 @@ cd tech-share
 ```
 Depois disso, acesse o arquivo "index.html"
 
+## 🛠️ Features
+
+* Login
+* Cards
+* Agendar mentoria
+* Listar mentorias por categoria
+
 ## 🛠️ Tecnologias
 
-Mencione as ferramentas que você usou para criar seu projeto
-HTML5, CSS3, Bootstrap, JS e Jquery
 * HTML5;
 * CSS3;
 * JavaScript;
