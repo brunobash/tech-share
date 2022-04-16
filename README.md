@@ -29,11 +29,6 @@ HTML5, CSS3, Bootstrap, JS e Jquery
 * Jquery;
 * Bootstrap.
 
-* Nosso [Trello](https://trello.com/invite/b/7bmdzTrZ/b31c624def6156afcf29f920af552965/technical-share)
-* [Artigo](https://bit.ly/laranjamecanica_technicalshare_conectandoestudanteseiniciantesnacarreiradetecnologiaaprofissionaisexperientesparamentorias) UX
-* Nosso [Pitch](https://youtu.be/3QwjKsI6O70)
-* Video de [Funcionalidades]()
-
 ## 📌 Versão
 
 Nós usamos [GIT](https://git-scm.com/) para controle de versão. 
@@ -47,6 +42,11 @@ Nós usamos [GIT](https://git-scm.com/) para controle de versão.
 * **Bruno Vinícius** *DEV* - [GitHub](https://github.com/captainritchiejohnson01101) [LinkedIn](https://www.linkedin.com/mwlite/in/brunovinicius01101)
 * **Andrews Hernandez** *DEV* - [GitHub](https://github.com/AndrewsHernandez) [LinkedIn](https://www.linkedin.com/in/andrews-h-a54517184)
 
+## Outros
+* Nosso [Trello](https://trello.com/invite/b/7bmdzTrZ/b31c624def6156afcf29f920af552965/technical-share)
+* [Artigo](https://bit.ly/laranjamecanica_technicalshare_conectandoestudanteseiniciantesnacarreiradetecnologiaaprofissionaisexperientesparamentorias) UX
+* Nosso [Pitch](https://youtu.be/3QwjKsI6O70)
+* Video de [Funcionalidades]()
 
 ## 📄 Licença
 
