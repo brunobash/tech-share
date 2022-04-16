@@ -3,13 +3,7 @@
 O Technical Share é uma aplicação web que tem como objetivo conectar profissionais de tecnologias de diversos níveis para trocarem experiências e facilitar 
 o registo de habilidades dos profissionais da [FCamara](https://digital.fcamara.com.br/programadeformacao). Trabalhamos em  
 
-## 🚀 Começando
-
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
-
-Consulte **Implantação** para saber como implantar o projeto.
-
-### 🔧 Instalação
+## 🚀 Instalação
 
 Você só irá precisar da o "git clone" do repositório e rodar no navegador a partir do arquivo "index.html"
 
