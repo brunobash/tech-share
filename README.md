@@ -7,16 +7,10 @@ o registo de habilidades dos profissionais da [FCamara](https://digital.fcamara.
 
 Você só irá precisar da o "git clone" do repositório e rodar no navegador a partir do arquivo "index.html"
 
-Diga como essa etapa será:
+copie e cole o código no seu terminal:
 
 ```
-Dar exemplos
-```
-
-E repita:
-
-```
-Até finalizar
+git clone https://github.com/captainritchiejohnson01101/tech-share.git
 ```
 
 ## 🛠️ Tecnologias
